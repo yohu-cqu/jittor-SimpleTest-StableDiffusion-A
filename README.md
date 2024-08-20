@@ -20,7 +20,7 @@ chmod u+x ./dreambooth/*.sh
 ## 推理
 
 1. 将 `test_all.sh` 中的 `HF_HOME` 设置为本地模型路径，将 `run_all.py` 中的 `root` 设置为项目所在目录， `dataset_root` 修改为数据集对应的目录，将 `max_num` 修改为数据集中的风格个数；
-2. 进入目标文件夹下： `cd ./dreambooth/`，运行 `bash test_all.sh` 进行训练，对应的图片会输出到 `./dreambooth/results/prompt_v1_color_test1/outputs_[保存点训练epoch数]ckpt_[推理轮数]steps_[种子值]seed` 文件夹下，例如：`./dreambooth/results/prompt_v1_color_test1/outputs_300ckpt_500steps_76587seed`。
+2. 进入目标文件夹下： `cd ./dreambooth/`，运行 `bash test_all.sh` 进行推理，对应的图片会输出到 `./dreambooth/results/prompt_v1_color_test1/outputs_[保存点训练epoch数]ckpt_[推理轮数]steps_[种子值]seed` 文件夹下，例如：`./dreambooth/results/prompt_v1_color_test1/outputs_300ckpt_500steps_76587seed`。
 
 
 ## 参考文献
